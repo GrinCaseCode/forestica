@@ -783,31 +783,6 @@
 <script src="libs/ion.rangeSlider-master/js/ion.rangeSlider.min.js"></script>
 <script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
 <script src="js/common.js?ver=1.2"></script>
-<script>
-	const fraction = document.getElementById("fraction");
-const slides = document.querySelectorAll(".mySwiper .swiper-slide");
-const slideCount = slides.length;
-fraction.textContent = `1 / ${slideCount}`;
-
-const swiper = new Swiper(".mySwiper", {
-  // If we need pagination
-  pagination: {
-  	el: ".mySwiper .swiper-pagination",
-  	dynamicBullets: true,
-  },
-
-
-  // Navigation arrows
-  navigation: {
-  	nextEl: ".mySwiper .swiper-button-next",
-  	prevEl: ".mySwiper .swiper-button-prev" },
-
-
-  	on: {
-  		slideChange: () => {
-  			fraction.textContent = `${swiper.realIndex + 1} / ${slideCount}`;
-  		} } });
-</script>
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 <!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>
