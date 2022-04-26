@@ -39,6 +39,7 @@
 	.menu {
 		display: none;
 	}
+	.header__right .basket-header,
 	.header__right .btn-basket,
 	.header__right .location,
 	.header__right .social-list {
