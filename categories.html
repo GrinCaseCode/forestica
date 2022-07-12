@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/ion.rangeSlider-master/css/ion.rangeSlider.min.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
+	<link rel="stylesheet" href="libs/swiper/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.5" />
+	<link rel="stylesheet" href="css/media.css?ver=1.5" />
+</head>
+<body>
+
+	<div class="wrapper">
+
+		<div class="buttons-fixed">
+			<a href="#" class="btn-fixed">
+				<span class="btn-fixed__icon">
+					<img src="img/btn_fixed1.svg" alt="alt">
+				</span>
+				<span class="btn-fixed__text">Главная</span>
+			</a>
+			<a href="#" class="btn-fixed">
+				<span class="btn-fixed__icon">
+					<img src="img/btn_fixed2.svg" alt="alt">
+				</span>
+				<span class="btn-fixed__text">Каталог</span>
+			</a>
+			<a href="#" class="btn-fixed">
+				<span class="btn-fixed__icon">
+					<img src="img/btn_fixed3.svg" alt="alt">
+					<span class="btn-fixed__value">3</span>
+				</span>
+				<span class="btn-fixed__text">Корзина</span>
+			</a>
+			<a href="#" class="btn-fixed">
+				<span class="btn-fixed__icon">
+					<img src="img/btn_fixed4.svg" alt="alt">
+				</span>
+				<span class="btn-fixed__text">Избранное</span>
+			</a>
+			<a href="#" class="btn-fixed">
+				<span class="btn-fixed__icon">
+					<img src="img/btn_fixed5.svg" alt="alt">
+				</span>
+				<span class="btn-fixed__text">Личный кабинет</span>
+			</a>
+		</div>
+
+		<header class="header">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-4 header__left">
+						<a href="#" class="btn-catalog">Каталог <i class="far fa-chevron-down"></i></a>
+						<ul class="menu">
+							<li><a href="#">Вдохновение</a></li>
+						</ul>
+						<span class="btn_nav">
+							<span class='sandwich'>
+								<span class='sw-topper'></span>
+								<span class='sw-bottom'></span>
+								<span class='sw-footer'></span>
+							</span>
+						</span>
+					</div>
+					<div class="col-lg-4 header__center">
+						<a href="#" class="logo">
+							<img src="img/logo.svg" alt="alt">
+						</a>
+					</div>
+					<div class="col-lg-4 header__right">
+						<div class="header__contacts">
+							<a href="tel:+7900000000" class="phone-main">+7 (900) 00-00-00</a>
+							<a href="#" class="location"><img src="img/loc2.svg" alt="alt">Петропавловск Камчатский</a>
+						</div>
+						<div class="buttons-menu">
+							<a href="#" class="btn-menu"><img src="img/heart.svg" alt="alt"></a>
+							<a href="#" class="btn-menu"><img src="img/user.svg" alt="alt"></a>
+							<a href="#" class="btn-menu btn-search"><img src="img/search.svg" alt="alt"></a>
+							<a href="#" class="btn-menu"><img src="img/cart.svg" alt="alt"></a>
+						</div>
+					</div>
+				</div>
+				<div class="search-header">
+					<form>
+						<input type="text" placeholder="Поиск">
+					</form>
+				</div>
+				<div class="modal-catalog">
+					<ul class="menu-modal">
+						<li><a href="#">Деревянные пазлы</a></li>
+						<li><a href="#">Интерьерные карты</a></li>
+						<li><a href="#">Арома-свечи</a></li>
+						<li><a href="#">Аксессуары</a></li>
+						<li><a href="#">Арома-свечи <br>на заказ</a></li>
+						<li><a href="#">Подарочные <br>сертификаты</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="modal-header modal-header_menu">
+				<div class="container">
+					<div class="modal-header__wrap">
+						<div class="modal-header__content">
+							<div class="close-modal"></div>
+							<div class="show-mobile">
+								<div class="title-min">Ваш город</div>
+								<a href="#" class="location"><img src="img/loc.svg" alt="alt">Ижевск</a>
+							</div>
+							<div class="row">
+								<div class="col-lg-2 offset-lg-1">
+									<div class="item-modal">
+										<div class="title-min">Компания <i class="far fa-chevron-down"></i></div>
+										<ul class="menu-modal">
+											<li><a href="#">О товаре</a></li>
+											<li><a href="#">Вдохновение</a></li>
+											<li><a href="#">Акции</a></li>
+											<li><a href="#">Отзывы</a></li>
+											<li><a href="#">О нас</a></li>
+											<li><a href="#">Контакты</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-lg-4">
+									<div class="item-modal">
+										<div class="title-min">Покупателям <i class="far fa-chevron-down"></i></div>
+										<ul class="menu-modal">
+											<li><a href="#">Вопросы и ответы</a></li>
+											<li><a href="#">Поддержка</a></li>
+											<li><a href="#">Оплата и доставка</a></li>
+											<li><a href="#">Обмен и возврат товара</a></li>
+											<li><a href="#">Корпоративные подарки</a></li>
+											<li><a href="#">Подарочный сертификат</a></li>
+											<li><a href="#">Блог</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-lg-4">
+									<div class="item-modal">
+										<div class="title-min">Каталог <i class="far fa-chevron-down"></i></div>
+										<ul class="menu-modal">
+											<li><a href="#">Деревянные пазлы</a></li>
+											<li><a href="#">Интерьерные карты</a></li>
+											<li><a href="#">Арома-свечи</a></li>
+											<li><a href="#">Аксессуары</a></li>
+											<li><a href="#">Арома-свечи на заказ</a></li>
+											<li><a href="#">Подарочные сертификаты</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="modal-bottom">
+							<div class="row">
+								<div class="col-lg-11 offset-lg-1">
+									<div class="modal-bottom__wrap">
+										<a href="#">Политика конфиденциальности</a>
+										<div class="show-mobile">
+											<a href="tel:+79999995252" class="phone-main">+7 999 999-52-52</a>
+											<ul class="list-social">
+												<li><a href="#"><img src="img/vk2.svg" alt="alt"></a></li>
+												<li><a href="#"><img src="img/tg2.svg" alt="alt"></a></li>
+												<li><a href="#"><img src="img/wp2.svg" alt="alt"></a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal-header modal-header_search">
+				<div class="container">
+					<div class="modal-header__wrap">
+						<div class="modal-header__content">
+							<div class="close-modal"></div>
+							<div class="row">
+								<div class="col-lg-11 offset-lg-1">
+									<form>
+										<div class="search-form">
+											<input type="text">
+											<div class="clear-search"></div>
+											<div class="search-dropdown">
+												<div class="search-dropdown__value">Натюрморт </div>
+												<div class="search-dropdown__value">Мир на земле </div>
+												<div class="search-dropdown__value">Айвазовский </div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+							<div class="results-wrap">
+								<div class="title-section">Результаты поиска «Натюрморт»</div>
+								<div class="result-descr">Найдено 6 товаров</div>
+								<div class="sorting-wrap">
+									<p>Сортировать по:</p>
+									<div class="value-sorting active">Популярности</div>
+									<div class="value-sorting">Рейтингу</div>
+									<div class="value-sorting">Цене <i class="far fa-long-arrow-down"></i></div>
+								</div>
+								<div class="row row_catalog">
+									<div class="col-lg-3 col-md-6">
+										<div class="item-catalog">
+											<a href="#" class="item-catalog__image">
+												<img src="img/catalog1.jpg" alt="alt">
+											</a>
+											<div class="prices-wrap">
+												<div class="price-main">3000 ₽</div>
+											</div>
+											<div class="rating-wrap">
+												<div class="rating rating_4">
+													<div class="rating__item"></div>
+													<div class="rating__item"></div>
+													<div class="rating__item"></div>
+													<div class="rating__item"></div>
+													<div class="rating__item"></div>
+												</div>
+												<div class="rating-value">254</div>
+											</div>
+											<a href="#" class="item-catalog__name">3D Wooden World Map Multicolor</a>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6">
+										<div class="item-catalog">
+											<div class="item-catalog__status">–90%</div>
+											<a href="#" class="item-catalog__image">
+												<img src="img/catalog2.jpg" alt="alt">
+											</a>
+											<div class="prices-wrap">
+												<div class="price-main price-main_new">300 ₽</div>
+												<div class="price-old">3000 ₽</div>
+											</div>
+											<div class="rating-wrap">
+												<div class="rating rating_4">
+													<div class="rating__item"></div>
+													<div class="rating__item"></div>
+													<div class="rating__item"></div>
+													<div class="rating__item"></div>
+													<div class="rating__item"></div>
+												</div>
+												<div class="rating-value">254</div>
+											</div>
+											<a href="#" class="item-catalog__name">3D Wooden World Map Multicolor</a>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6">
+										<div class="item-catalog">
+											<a href="#" class="item-catalog__image">
+												<img src="img/catalog3.jpg" alt="alt">
+											</a>
+											<div class="prices-wrap">
+												<div class="price-main">3000 ₽</div>
+											</div>
+											<div class="rating-wrap">
+												<div class="rating rating_4">
+													<div class="rating__item"></div>
+													<div class="rating__item"></div>
+													<div class="rating__item"></div>
+													<div class="rating__item"></div>
+													<div class="rating__item"></div>
+												</div>
+												<div class="rating-value">254</div>
+											</div>
+											<a href="#" class="item-catalog__name">3D Wooden World Map Multicolor</a>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6">
+										<div class="item-catalog">
+											<a href="#" class="item-catalog__image">
+												<img src="img/catalog4.jpg" alt="alt">
+											</a>
+											<div class="prices-wrap">
+												<div class="price-main">3000 ₽</div>
+											</div>
+											<div class="rating-wrap">
+												<div class="rating rating_4">
+													<div class="rating__item"></div>
+													<div class="rating__item"></div>
+													<div class="rating__item"></div>
+													<div class="rating__item"></div>
+													<div class="rating__item"></div>
+												</div>
+												<div class="rating-value">254</div>
+											</div>
+											<a href="#" class="item-catalog__name">3D Wooden World Map Multicolor</a>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6">
+										<div class="item-catalog">
+											<a href="#" class="item-catalog__image">
+												<img src="img/catalog1.jpg" alt="alt">
+											</a>
+											<div class="prices-wrap">
+												<div class="price-main">3000 ₽</div>
+											</div>
+											<div class="rating-wrap">
+												<div class="rating rating_4">
+													<div class="rating__item"></div>
+													<div class="rating__item"></div>
+													<div class="rating__item"></div>
+													<div class="rating__item"></div>
+													<div class="rating__item"></div>
+												</div>
+												<div class="rating-value">254</div>
+											</div>
+											<a href="#" class="item-catalog__name">3D Wooden World Map Multicolor</a>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6">
+										<div class="item-catalog">
+											<div class="item-catalog__status">–90%</div>
+											<a href="#" class="item-catalog__image">
+												<img src="img/catalog2.jpg" alt="alt">
+											</a>
+											<div class="prices-wrap">
+												<div class="price-main price-main_new">300 ₽</div>
+												<div class="price-old">3000 ₽</div>
+											</div>
+											<div class="rating-wrap">
+												<div class="rating rating_4">
+													<div class="rating__item"></div>
+													<div class="rating__item"></div>
+													<div class="rating__item"></div>
+													<div class="rating__item"></div>
+													<div class="rating__item"></div>
+												</div>
+												<div class="rating-value">254</div>
+											</div>
+											<a href="#" class="item-catalog__name">3D Wooden World Map Multicolor</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="modal-bottom">
+							<div class="row">
+								<div class="col-lg-11 offset-lg-1">
+									<div class="modal-bottom__wrap">
+										<a href="#">Политика конфиденциальности</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal-header modal-header_location">
+				<div class="container">
+					<div class="modal-header__wrap">
+						<div class="modal-header__content">
+							<div class="close-modal"></div>
+							<div class="row">
+								<div class="col-lg-11 offset-lg-1">
+									<div class="title-min">Ваш город</div>
+									<form>
+										<div class="search-form">
+											<input type="text">
+											<div class="search-dropdown">
+												<div class="search-dropdown__value">Натюрморт </div>
+												<div class="search-dropdown__value">Мир на земле </div>
+												<div class="search-dropdown__value">Айвазовский </div>
+											</div>
+										</div>
+										<ul class="list-modal">
+											<li><a href="#">Москва</a></li>
+											<li><a href="#">Санкт-Петербург</a></li>
+											<li><a href="#">Новосибирск</a></li>
+											<li><a href="#">Екатеринбург</a></li>
+											<li><a href="#">Нижний Новгород</a></li>
+											<li><a href="#">Казань</a></li>
+											<li><a href="#">Самара</a></li>
+											<li><a href="#">Владивосток</a></li>
+										</ul>
+									</form>
+								</div>
+							</div>
+						</div>
+						<div class="modal-bottom">
+							<div class="row">
+								<div class="col-lg-11 offset-lg-1">
+									<div class="modal-bottom__wrap">
+										<a href="#">Политика конфиденциальности</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section class="categories">
+			<div class="container">
+				<ul class="breadcumbs">
+					<li><a href="#">Главная</a></li>
+					<li>Каталог</li>
+				</ul>
+				<h1 class="title-common">Каталог</h1>
+				<div class="row">
+					<div class="col-lg-3 col-md-6">
+						<a href="#" class="item-category">
+							<span class="item-category__image">
+								<img src="img/category1.jpg" alt="alt">
+							</span>
+							<span class="item-category__name">Деревянные пазлы</span>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<a href="#" class="item-category">
+							<span class="item-category__image">
+								<img src="img/category2.jpg" alt="alt">
+							</span>
+							<span class="item-category__name">Деревянные карты</span>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<a href="#" class="item-category">
+							<span class="item-category__image">
+								<img src="img/category3.jpg" alt="alt">
+							</span>
+							<span class="item-category__name">Карты на заказ</span>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<a href="#" class="item-category">
+							<span class="item-category__image">
+								<img src="img/category4.jpg" alt="alt">
+							</span>
+							<span class="item-category__name">Арома–свечи</span>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<a href="#" class="item-category">
+							<span class="item-category__image">
+								<img src="img/category5.jpg" alt="alt">
+							</span>
+							<span class="item-category__name">Арома–свечи на заказ</span>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<a href="#" class="item-category">
+							<span class="item-category__image">
+								<img src="img/category6.jpg" alt="alt">
+							</span>
+							<span class="item-category__name">Аксессуары</span>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<a href="#" class="item-category">
+							<span class="item-category__image">
+								<img src="img/category7.jpg" alt="alt">
+							</span>
+							<span class="item-category__name">Подарочные сертификаты</span>
+						</a>
+					</div>
+				</div>
+				<div class="button-categories">
+					<a href="#" class="btn-main">Посмотреть все товары</a>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3">
+						<div class="footer__item">
+							<div class="footer__title">Каталог <i class="far fa-chevron-down"></i></div>
+							<div class="footer__content">
+								<ul class="footer__nav">
+									<li><a href="#">Деревянные пазлы</a></li>
+									<li><a href="#">Интерьерные карты</a></li>
+									<li><a href="#">Арома-свечи</a></li>
+									<li><a href="#">Аксессуары</a></li>
+									<li><a href="#">Арома-свечи <br>на заказ</a></li>
+									<li><a href="#">Подарочные <br>сертификаты</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="footer__item">
+							<div class="footer__title">Компания <i class="far fa-chevron-down"></i></div>
+							<div class="footer__content">
+								<ul class="footer__nav">
+									<li><a href="#">Вдохновение</a></li>
+									<li><a href="#">Акции</a></li>
+									<li><a href="#">Подарочный сертификат</a></li>
+									<li><a href="#">О нас</a></li>
+									<li><a href="#">Блог</a></li>
+									<li><a href="#">Контакты</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="footer__item">
+							<div class="footer__title">Покупателям <i class="far fa-chevron-down"></i></div>
+							<div class="footer__content">
+								<ul class="footer__nav">
+									<li><a href="#">Вопросы и ответы</a></li>
+									<li><a href="#">Поддержка</a></li>
+									<li><a href="#">Оплата и доставка</a></li>
+									<li><a href="#">Обмен и возврат товара</a></li>
+									<li><a href="#">Корпоративные подарки</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="footer__title footer__title_simple">Forestica в соцсетях</div>
+						<ul class="list-social">
+							<li><a href="#"><img src="img/vk.svg" alt="alt"></a></li>
+							<li><a href="#"><img src="img/tg.svg" alt="alt"></a></li>
+							<li><a href="#"><img src="img/wp.svg" alt="alt"></a></li>
+						</ul>
+						<p>+7 999 999-99-99 <br>г. Ижевск, ул. Автозаводская, 11, оф. 15 <br>sale@forestica.ru</p>
+						<br>
+						<a href="#" class="link-footer">Политика кофиденциальности</a>
+						<ul class="list-payments">
+							<li><div class="item-payment"><img src="img/payment1.svg" alt="alt"></div></li>
+							<li><div class="item-payment"><img src="img/payment2.svg" alt="alt"></div></li>
+							<li><div class="item-payment"><img src="img/payment3.svg" alt="alt"></div></li>
+							<li><div class="item-payment"><img src="img/payment4_1.svg" alt="alt"></div></li>
+						</ul>
+						<div class="footer__requisites">
+							<p>ИП Васильев Андрей Васильевич</p>
+							<p>ИНН: 183404435616</p>
+							<p>ОГРНИП: 321183200041774</p>
+						</div>
+					</div>
+				</div>
+				<div class="copyright">© 2022 forestica.ru</div>
+			</div>
+		</footer>
+
+		<a href="#" class="btn_top default">
+			<span class="btn_top__icon">
+				<i class="fal fa-arrow-up"></i>
+			</span>
+			<span class="btn_top__text">Наверх</span>
+		</a>
+		
+	</div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script> 
+<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+<script src="libs/scroll2id/PageScroll2id.min.js"></script>
+<script src="libs/swiper/swiper-bundle.min.js"></script>
+<script src="libs/mask/jquery.maskedinput.js"></script>
+<script src="libs/ion.rangeSlider-master/js/ion.rangeSlider.min.js"></script>
+<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
+<script src="js/common.js?ver=1.5"></script>
+<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
