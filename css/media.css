@@ -594,14 +594,15 @@
 	.banner {
 		padding: 25px 5px;
 		padding-right: 15px;
-		max-width: 340px;
 		background-image: url(../img/bg_banner2.svg);
 	}
 	.banner__content {
-		font-size: 24px;
-		line-height: 29px;
-		padding: 20px 26px;
-		padding-left: 40px;
+font-size: 24px;
+    line-height: 29px;
+    padding: 20px 26px;
+    max-width: 325px;
+    margin: 0 auto;
+    padding-left: 40px;
 		background-image: url(../img/bg_text2.svg);
 	}
 	.banner__content::after {
@@ -864,6 +865,9 @@
 		padding-left: 15px;
 		margin-left: 0;
 	}
+	.item-catalog__image {
+    height: 295px;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -883,7 +887,7 @@
 		margin-top: 20px;
 	}
 	.item-image {
-		height: 277px;
+		height: 320px;
 	}
 	.catalog-page_sertificats .item-catalog__image {
 		height: 365px;
