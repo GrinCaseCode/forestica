@@ -429,6 +429,7 @@ $('.swiper-recomendation').each(function(){
 
 	$(".subtitle-sidebar").click(function(e) {
 		e.preventDefault();
+		$(this).parent().toggleClass("active");
 		$(this).siblings(".item-sidebar__content").slideToggle(200);
 	});
 
