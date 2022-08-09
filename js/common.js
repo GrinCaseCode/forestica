@@ -228,6 +228,43 @@ $('.swiper-recomendation').each(function(){
 	});
 });
 
+$('.swiper-gallery').each(function(){
+	var slides8 = $(this).find(".swiper-slide");
+	var fraction8 = $(this).find(".swiper-fraction");
+	var slideCount8 = slides8.length;
+	fraction8.html(`1 / ${slideCount8}`);
+
+	var swiper8 = new Swiper(this, {
+		slidesPerView: "auto",
+
+
+
+  // Navigation arrows
+  navigation: {
+  	nextEl: (this, ".swiper-button-next"),
+  	prevEl: (this, ".swiper-button-prev")
+  },
+  breakpoints: {
+    // when window width is >= 320px
+    480: {
+    	
+    },
+    // when window width is >= 480px
+    768: {
+    	
+    },
+    // when window width is >= 640px
+    1200: {
+    
+    }
+},
+on: {
+	slideChange: () => {
+		fraction8.html(`${swiper8.realIndex + 1} / ${slideCount8}`);
+	} }
+});
+});
+
 	//плавный скролл
 	$(".navigat li a").mPageScroll2id();
 
@@ -333,18 +370,40 @@ $('.swiper-recomendation').each(function(){
 	});
 
 
+$(".btn-main_dropdown").click(function(e) {
+		e.preventDefault();
+		
+		if ($(".dropdown-container").is(":hidden")) {
+			$(".dropdown-container").slideDown(200);
+			$(this).html("Скрыть информацию <i class='fal fa-chevron-down'></i>");
+
+		} else {
+			$(".dropdown-container").slideUp(200);
+			$(this).html("Подробнее о пазлах Davici");
+		}
+	});
+
 	//слайдер
 
 	$('.slider-for').slick({
-		arrows: false,
+		arrows: true,
 		dots: false,
 		infinite: false,
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		asNavFor: '.slider-nav',
 		touchThreshold: 1000,
-		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
-		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-long-arrow-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-long-arrow-right"></i><div/>',
+		responsive: [
+		{
+			breakpoint: 768,
+			settings: {
+				arrows: false,
+				dots: true
+			}
+		}
+		]
 	});
 
 	$('.slider-nav').slick({
@@ -500,6 +559,17 @@ $('.swiper-recomendation').each(function(){
 	//<a class="fancybox"><img src="image.jpg" /></a>
 	//<a class="fancybox" data-fancybox-group="group"><img src="image.jpg" /></a>
 	$(".fancybox").fancybox();
+
+	$(".fancybox-gallery").fancybox({
+  beforeShow : function(){
+  	 setTimeout(function () {
+      $('.slider-for').slick('setPosition');
+      $('.slider-nav').slick('setPosition');
+    }, 300); 
+    $(".fancybox-wrap").addClass("fancybox-gallery");
+    
+  }
+});
 
 	jQuery('.quantity').each(function() {
 		var spinner = jQuery(this),

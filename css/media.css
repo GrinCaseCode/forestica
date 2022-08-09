@@ -29,7 +29,6 @@
 	.item-category__image {
 		height: 240px;
 	}
-
 	.logo img {
 		width: 185px;
 	}
@@ -54,9 +53,33 @@
 	.recomendation {
 		margin-left: calc((100% - 900px)/2);
 	}
-		.card-video,
+	.card-video,
 	.slider-nav {
 		margin-right: -20px;
+	}
+	.title-slide {
+		padding-left: 0;
+	}
+	.swiper-gallery {
+		margin-left: calc((100% - 910px)/2);
+	}
+	.swiper-gallery .swiper-slide {
+		max-width: 800px;
+	}
+	.item-gallery {
+		height: 390px;
+	}
+	.swiper-gallery .swiper-arrows {
+		max-width: 780px;
+	}
+	.dropdown-container {
+		padding-top: 60px;
+	}
+	.gallery-wrapper .slider-for__item {
+		height: 90vh;
+	}
+	.gallery-wrapper {
+		padding-top: 5vh;
 	}
 }
 
@@ -597,12 +620,12 @@
 		background-image: url(../img/bg_banner2.svg);
 	}
 	.banner__content {
-font-size: 24px;
-    line-height: 29px;
-    padding: 20px 26px;
-    max-width: 325px;
-    margin: 0 auto;
-    padding-left: 40px;
+		font-size: 24px;
+		line-height: 29px;
+		padding: 20px 26px;
+		max-width: 325px;
+		margin: 0 auto;
+		padding-left: 40px;
 		background-image: url(../img/bg_text2.svg);
 	}
 	.banner__content::after {
@@ -722,6 +745,45 @@ font-size: 24px;
 	}
 	.recomendation + .footer {
 		margin-top: 25px;
+	}
+	.tab-container .btn-main_dropdown {
+		margin-top: 30px;
+	}
+	.swiper-gallery .swiper-slide {
+		max-width: 600px;
+	}
+	.swiper-gallery .swiper-arrows {
+		max-width: 700px;
+	}
+	.item-gallery {
+		height: 310px;
+	}
+	.item-gallery.fancybox.fancybox::after {
+		width: 60px;
+		height: 60px; 
+	}
+	.swiper-gallery {
+		margin-left: calc((100% - 690px)/2);
+	}
+	.reviews-block {
+		display: block;
+	}
+	.reviews-info {
+		margin-top: -20px;
+	}
+	.gallery-wrapper .slider-nav {
+		display: none;
+	}
+	.gallery-wrapper {
+		padding-top: 10vh;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.gallery-wrapper .slider-for__item {
+		height: 80vh;
+	}
+	.slider-for .slick-dots {
+		bottom: -25px;
 	}
 }
 
@@ -866,8 +928,34 @@ font-size: 24px;
 		margin-left: 0;
 	}
 	.item-catalog__image {
-    height: 295px;
-}
+		height: 295px;
+	}
+	.tab-container .btn-main_dropdown {
+		margin-top: 10px;
+	}
+	.dropdown-container {
+		padding-top: 35px;
+	}
+	.dropdown-container h5, .top-catalog h5 {
+		font-size: 16px;
+	}
+	.swiper-gallery .swiper-slide {
+		max-width: 100%;
+	}
+	.item-gallery {
+		height: 235px;
+	}
+	.swiper-gallery .swiper-arrows {
+		margin-top: 20px;
+		max-width: 100%;
+	}
+	.swiper-gallery {
+		margin-right: 0;
+	}
+	.swiper-gallery {
+		margin-left: 0;
+		padding: 0 15px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -915,6 +1003,23 @@ font-size: 24px;
 	}
 	.card__buttons > div {
 		padding: 0 5px;
+	}
+	.item-gallery {
+		height: 185px;
+	}
+	.reviews-info {
+		display: block;
+		margin-top: 0;
+	}
+	.reviews-info__image {
+		margin-top: -40px;
+		margin-bottom: -20px;
+	}
+	.reviews-info__content {
+		max-width: 100%;
+	}
+	.title-text {
+		font-size: 16px;
 	}
 }
 
