@@ -801,7 +801,7 @@
 		margin: 0 auto;
 	}
 	.content-gallery {
-				top: 50%;
+		top: 50%;
 		transform: translateY(-50%);
 		position: relative;
 	}
