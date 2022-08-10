@@ -769,7 +769,7 @@
 		display: block;
 	}
 	.reviews-info {
-		margin-top: -20px;
+		margin-top: -20px; 
 	}
 	.gallery-wrapper .slider-nav {
 		display: none;
@@ -780,7 +780,7 @@
 		padding-right: 15px;
 	}
 	.gallery-wrapper .slider-for__item {
-		height: 80vh;
+		height: 80vh; 
 	}
 	.slider-for .slick-dots {
 		bottom: -25px;

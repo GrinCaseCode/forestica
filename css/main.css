@@ -2288,15 +2288,15 @@ input[type=number]
 .fancybox-gallery .fancybox-inner {
 	width: 100% !important;
 	height: 100% !important;
-		overflow: visible !important;
+	overflow: visible !important;
 }
 .fancybox-overlay {
 	overflow: visible !important; 
 }
 .gallery-wrapper {
-	padding-top: 10vh; 
+	padding-top: 10vh;  
 }
-.gallery-wrapper .slider-for__item {
+.gallery-wrapper .slider-for__item { 
 	height: 80vh;
 }
 .gallery-wrapper .slider-for__item::after {
