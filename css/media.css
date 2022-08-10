@@ -1,5 +1,16 @@
 /*==========  Desktop First Method  ==========*/
-
+@media only screen and (max-width : 1400px) {
+	.gallery-wrapper {
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+}
+@media only screen and (max-width : 1400px) {
+	.gallery-wrapper {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 	.footer__bottom {
@@ -775,7 +786,7 @@
 		display: none;
 	}
 	.gallery-wrapper {
-		padding-top: 40%;
+		padding-top: 0;
 		padding-left: 15px;
 		padding-right: 15px;
 	}
@@ -786,6 +797,14 @@
 	.slider-for .slick-dots {
 		bottom: -25px;
 	}   
+	.gallery-wrapper .slider-for {
+		margin: 0 auto;
+	}
+	.content-gallery {
+				top: 50%;
+		transform: translateY(-50%);
+		position: relative;
+	}
 }
 
 /* Small Devices, Tablets */
