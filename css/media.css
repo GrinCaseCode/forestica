@@ -92,6 +92,22 @@
 	.gallery-wrapper {
 		padding-top: 5vh;
 	}
+	.image-step {
+		transform: scale(0.9);
+	}
+	.content-step {
+    font-size: 16px;
+}
+.custom-made__right {
+    margin-left: 0;
+}
+.title-inspiration {
+    font-size: 26px;
+    line-height: 31px;
+}
+.image-inspiration {
+    height: 335px;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -566,6 +582,9 @@
 		padding-bottom: 25px;
 		color: #000;
 		justify-content: flex-start;
+		overflow: auto;
+		white-space: nowrap;
+		margin-right: -15px;
 	}
 	.breadcumbs li {
 		margin-right: 6px;
@@ -805,6 +824,114 @@
 		transform: translateY(-50%);
 		position: relative;
 	}
+	.item-buy__image {
+		margin-right: 15px;
+	}
+	.modal-wrapper {
+		padding-top: 20px;
+	}
+	.modal-wrapper .item-buy {
+    margin-bottom: 35px;
+}
+.line-price_main {
+    font-size: 24px;
+    line-height: 31px;
+    }
+    .title-form {
+    font-size: 16px;
+}
+.item-advantage {
+    font-size: 16px;
+    line-height: 21px;
+    max-width: 100%;
+    margin: 0;
+    margin-bottom: 15px;
+    }
+    .advantages-block {
+    padding: 25px 15px;
+    padding-bottom: 15px;
+}
+.dropdown-container .advantages-block {
+    margin-top: 35px;
+}
+.swiper-gallery .title-slide {
+	opacity: 1;
+}
+.item-step_1 .content-step {
+    margin-top: 0;
+}
+.item-step_1 {
+	margin-top: -80px;
+    margin-bottom: -107px;
+}
+.item-step_1 .image-step {
+    margin-bottom: -90px;
+}
+.content-step span {
+    font-size: 70px;
+    line-height: 80px;
+    margin-right: 10px;
+    }
+    .item-step_2 .content-step {
+    	margin-left: 0;
+    }
+    .col_image {
+    	order: -1;
+    }
+   .item-step_2  .image-step {
+    	margin-bottom: -95px;
+    }
+    .item-step_2 {
+    margin-bottom: -61px;
+}
+.item-step_3 .content-step {
+    margin-top: 0;
+}
+.item-step_3 .image-step {
+margin-bottom: -72px;
+}
+.item-step_3 {
+	margin-bottom: 30px;
+}
+.dropdown-container .swiper-gallery {
+    margin-top: 35px;
+}
+.dropdown-container br {
+	display: none;
+}
+.image-custom {
+	margin-bottom: 20px;	
+}
+.title-descr {
+    margin-bottom: 20px;
+}
+.custom-made .capcha, .custom-made .descr-form {
+	max-width: 100%;	
+}
+.custom-made .btn-main {
+	margin: 0 auto;	
+	display: flex;	
+}
+.custom-made {
+	padding-bottom: 50px;
+}
+.align-self-end .title-inspiration {
+    min-height: initial;
+    margin-bottom: 0;
+}
+.row_inspiration > div {
+    margin-bottom: 25px;
+}
+.title-inspiration {
+    font-size: 23px;
+    line-height: 29px;
+}
+.inspiration {
+	padding-bottom: 40px;
+}
+.card__buttons_margin {
+	margin-top: 25px;
+}
 }
 
 /* Small Devices, Tablets */
