@@ -2957,7 +2957,7 @@ input[type=number]
 .text-error a:hover {
 	border-color: #007EFF;
 }
-.error {
+.error { 
 	padding-top: 95px;
 	padding-bottom: 112px;
 }

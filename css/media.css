@@ -11,9 +11,9 @@
 		padding-right: 0;
 	}
 	.error {
-    padding-top: 30px;
-    padding-bottom: 55px;
-}
+		padding-top: 30px;
+		padding-bottom: 55px;
+	}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -1037,60 +1037,60 @@
 		padding-bottom: 135px;
 	}
 	.text-error {
-		    font-size: 15px;
-    line-height: 19px;
-    max-width: 273px;
+		font-size: 15px;
+		line-height: 19px;
+		max-width: 273px;
 		margin-top: 0;
 	}
 	.error {
-    padding-top: 45px;
-    padding-bottom: 40px;
-}
-.thanks .title-main {
-	padding-top: 0;
-	display: none;
-}
-.thanks .title-common {
-    padding-bottom: 25px;
-}
-.image-thanks {
-	margin-top: 35px;
-}
-.thanks .title-text {
-    margin-bottom: 15px;
-}
-.video-main {
-	margin-top: 0;
-}
-.video-main::after {
-	width: 50px; 
-	height: 50px;
-	background-size: 20px auto;
-}
-.descr-video {
-	margin-bottom: 30px;
-}
-.corporate-gifts .title-section {
-	margin-bottom: 25px;
-}
-.item-gift {
-	margin-bottom: 30px !important;
-	display: block;
-}
-.item-gift__image img {
-	max-width: 100%;
-	margin: 0 auto;
-}
-.item-gift__content {
-	padding: 15px 0 0 0 !important;
-	text-align: left !important;
-}
-.gifts-wrap {
-	padding-bottom: 0;
-}
-.corporate-gifts {
-	padding-bottom: 40px;
-}
+		padding-top: 45px;
+		padding-bottom: 40px;
+	}
+	.thanks .title-main {
+		padding-top: 0;
+		display: none;
+	}
+	.thanks .title-common {
+		padding-bottom: 25px;
+	}
+	.image-thanks {
+		margin-top: 35px;
+	}
+	.thanks .title-text {
+		margin-bottom: 15px;
+	}
+	.video-main {
+		margin-top: 0;
+	}
+	.video-main::after {
+		width: 50px; 
+		height: 50px;
+		background-size: 20px auto;
+	}
+	.descr-video { 
+		margin-bottom: 30px;
+	}
+	.corporate-gifts .title-section {
+		margin-bottom: 25px;
+	}
+	.item-gift {
+		margin-bottom: 30px !important;
+		display: block;
+	}
+	.item-gift__image img {
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	.item-gift__content {
+		padding: 15px 0 0 0 !important;
+		text-align: left !important;
+	}
+	.gifts-wrap {
+		padding-bottom: 0;
+	}
+	.corporate-gifts {
+		padding-bottom: 40px;
+	}
 }
 
 /* Small Devices, Tablets */
