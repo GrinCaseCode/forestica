@@ -1225,6 +1225,9 @@
 	.questions {
 		padding-bottom: 150px;
 	}
+	.item-category__image {
+    height: 315px;
+}
 }
 
 /* Small Devices, Tablets */
