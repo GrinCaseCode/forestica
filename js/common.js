@@ -243,7 +243,7 @@ on: {
 		$(".modal-header_location").fadeOut(200);
 		$(".modal-catalog").fadeOut(200);
 		$(".modal-header_catalog").fadeOut(200);
-		(".btn-fixed_catalog").removeClass("active");
+		$(".btn-fixed_catalog").removeClass("active");
 		if ($(".modal-header_menu").is(":hidden")) {
 			$(".modal-header_menu").fadeIn(200);
 			$(".header").addClass("header_menu");
@@ -263,7 +263,7 @@ on: {
 		$(".modal-header_location").fadeOut(200);
 		$(".modal-catalog").fadeOut(200);
 		$(".modal-header_catalog").fadeOut(200);
-		(".btn-fixed_catalog").removeClass("active");
+		$(".btn-fixed_catalog").removeClass("active");
 		$(".sandwich").removeClass("active");
 		if ($(".modal-header_search").is(":hidden")) {
 			$(".modal-header_search").fadeIn(200);
@@ -280,7 +280,7 @@ on: {
 		$(".modal-header_search").fadeOut(200);
 		$(".modal-catalog").fadeOut(200);
 		$(".modal-header_catalog").fadeOut(200);
-		(".btn-fixed_catalog").removeClass("active");
+		$(".btn-fixed_catalog").removeClass("active");
 		if ($(".modal-header_location").is(":hidden")) {
 			$(".modal-header_location").fadeIn(200);
 			$(".header").addClass("header_menu");
@@ -296,7 +296,7 @@ on: {
 		$(".modal-header_search").fadeOut(200);
 		$(".modal-header_location").fadeOut(200);
 		$(".modal-header_catalog").fadeOut(200);
-		(".btn-fixed_catalog").removeClass("active");
+		$(".btn-fixed_catalog").removeClass("active");
 		$(".sandwich").removeClass("active");
 		if ($(".modal-catalog").is(":hidden")) {
 			$(".modal-catalog").fadeIn(200);
