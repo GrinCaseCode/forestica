@@ -311,8 +311,12 @@ form {
 	max-width: 444px;
 	right: 35px;
 }
+.item-about {
+	color: #000;
+}
 .image-about {
 	margin-bottom: 16px;
+	display: block;
 }
 .image-about img {
 	max-width: 100%;
@@ -1344,6 +1348,7 @@ form {
 }
 .item-about {
 	margin-bottom: 30px;
+	display: block;
 }
 .price-old {
 	color: #ABABAB;
@@ -2128,6 +2133,9 @@ input[type=number]
 .swiper-recomendation .swiper-slide {
 	width: 277px;
 	margin-right: 30px;
+}
+.swiper-card .swiper-slide {
+	margin: 0 !important;
 }
 .recomendation + .footer {
 	margin-top: 40px;

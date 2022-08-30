@@ -182,11 +182,13 @@ const swiper6 = new Swiper(".swiper-images", {
 $('.swiper-recomendation').each(function(){
 	var slides7 = $(this).find(".swiper-slide");
 	var swiper7 = new Swiper(this, {
-		slidesPerView: "auto",
+		slidesPerView: 1,
 		breakpoints: {
-
 			480: {
-
+				slidesPerView: 2,
+			},
+			768: {
+				slidesPerView: "auto",
 			}
 		},
 		navigation: {

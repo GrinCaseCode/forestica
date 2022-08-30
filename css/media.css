@@ -1399,6 +1399,15 @@
 		margin-left: 0;
 		padding: 0 15px;
 	}
+	.swiper-recomendation .swiper-slide {
+		margin-right: 0;
+	}
+	.recomendation {
+		padding-right: 15px;
+	}
+	.swiper-recomendation .item-catalog {
+		margin: 0 5px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -1463,6 +1472,9 @@
 	}
 	.title-text {
 		font-size: 16px;
+	}
+	.swiper-recomendation .item-catalog {
+		margin: 0;
 	}
 }
 
