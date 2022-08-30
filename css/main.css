@@ -3273,3 +3273,6 @@ input[type=number]
 .social-main li:last-child {
 	margin-right: 0;
 }
+.swiper-card .swiper-pagination {
+	display: block !important;
+}
