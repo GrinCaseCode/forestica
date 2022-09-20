@@ -1293,15 +1293,18 @@
 		width: 100%;
 	}
 	.bind-personal {
-    margin-top: 20px;
-    padding-top: 15px;
-    font-size: 12px;
-    line-height: 16px;
-}
-.bind-personal__text {
-    max-width: 226px;
-    margin-right: 9px;
-    }
+		margin-top: 20px;
+		padding-top: 15px;
+		font-size: 12px;
+		line-height: 16px;
+	}
+	.bind-personal__text {
+		max-width: 226px;
+		margin-right: 9px;
+	}
+	.personal .breadcumbs {
+		margin-bottom: 12px;
+	}
 }
 
 /* Small Devices, Tablets */
