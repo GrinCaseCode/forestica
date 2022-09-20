@@ -1,6 +1,16 @@
 $(document).ready(function() {
 
 
+/*personal*/
+
+$(".btn-main_personal").click(function(e) {
+	e.preventDefault();
+	$(this).toggleClass("active");
+		$(".personal-mobile .nav-personal").slideToggle(200);
+	});
+
+
+
 	/*input file*/
 	$("input[type='file']").change(function(){
 		var filename_text = $(this).parent().siblings(".name-upload");

@@ -3276,3 +3276,116 @@ input[type=number]
 .swiper-card .swiper-pagination {
 	display: block !important;
 }
+
+/*personal*/
+.personal {
+	padding-bottom: 80px;
+}
+.nav-personal {
+	padding-top: 26px;
+	font-size: 16px;
+	line-height: 20px;
+}
+.nav-personal li {
+	margin-bottom: 16px;
+}
+.nav-personal a {
+	border-bottom: 1px dashed rgba(0, 0, 0, 0.5);
+	color: #000;
+	transition: all 0.3s;
+}
+.nav-personal .active a,
+.nav-personal a:hover {
+	color: #007EFF;
+	border-color: #007EFF;
+}
+.personal .breadcumbs {
+	padding-bottom: 8px;
+	justify-content: flex-start;
+}
+.personal .title-section {
+	padding-bottom: 30px;
+	text-align: left;
+}
+.button-personal {
+	height: 156px;
+	margin-bottom: 30px;
+	color: #000;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	background: #FFFFFF;
+border: 2px solid rgba(0, 126, 255, 0.4);
+border-radius: 20px;
+transition: all 0.3s;
+}
+.button-personal:hover {
+	color: #fff;
+	background-color: #007EFF;
+}
+.button-personal:hover .button-personal__icon img  {
+		filter: invert(0) sepia(0) saturate(0) hue-rotate(0deg) brightness(100);
+}
+.button-personal__icon {
+	height: 64px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.button-personal__icon img {
+	max-width: 100%;
+	max-height: 100%;
+	transition: all 0.3s;
+}
+.personal-mobile {
+	display: none;
+}
+.block-personal {
+	padding: 24px;
+	background: #FAFAFA;
+border-radius: 20px;
+}
+.line-form {
+	margin-bottom: 24px;
+	display: flex;
+	align-items: center;
+}
+.line-form__title {
+	width: 180px;
+	font-size: 14px;
+line-height: 17px;
+	margin-right: 24px;
+	flex: none;
+}
+.line-form__title span {
+	color: #C90045;
+}
+.line-form .item-form {
+	margin: 0;
+	margin-right: 24px;
+	width: 400px;
+	flex: none;
+}
+.line-form__descr {
+	font-size: 12px;
+line-height: 15px;
+color: #ABABAB;
+}
+.line-form .item-form input {
+	height: 38px;
+}
+.bind-personal {
+	margin-top: 24px;
+	padding-top: 24px;
+	font-size: 14px;
+line-height: 17px;
+	border-top: 1px solid #E5E5E5;
+	display: flex;
+	align-items: flex-end;
+}
+.bind-personal__text {
+	max-width: 333px;
+	margin-right: 16px;
+	display: inline-block;
+}
