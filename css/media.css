@@ -1305,7 +1305,49 @@
 	.personal .breadcumbs {
 		margin-bottom: 12px;
 	}
+	.title-personal {
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 15px;
 }
+.personal-orders {
+	padding: 20px 15px;
+}
+.item-order__title {
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+.item-order__head {
+	margin-bottom: 15px;
+	display: block;
+}
+.item-order__bottom {
+	padding-top: 15px;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.item-order__bottom .btn-main {
+	margin-top: 15px;
+}
+.bottom-order-personal {
+	padding: 15px;
+	flex-direction: column;
+}
+.bottom-order-personal a {
+	margin: 8px 0;
+}
+.form-flex {
+flex-direction: column;
+align-items: flex-start;
+}
+.form-flex .checkbox {
+	margin-bottom: 15px;
+}
+.form-flex .link-simple {
+	margin-bottom: 20px;
+}
+}
+
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
