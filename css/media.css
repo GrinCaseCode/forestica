@@ -1618,6 +1618,9 @@
 	.swiper-recomendation .item-catalog {
 		margin: 0 5px;
 	}
+	.buttons-personal li {
+		width: 50%;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -1685,6 +1688,9 @@
 	}
 	.swiper-recomendation .item-catalog {
 		margin: 0;
+	}
+	.buttons-personal li {
+		width: 100%;
 	}
 }
 
